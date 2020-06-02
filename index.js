@@ -1,4 +1,12 @@
+var music = new Audio();
+music.src = "music.mp3"
+music.play()
+
 //  Minified
+
+var audio = new Audio('music.mp3');
+audio.play();
+
 var app = (function () {
 	"use strict";
 	function e() {}
