@@ -1,14 +1,13 @@
-var music = new Audio();
-music.src = "music.mp3"
-music.play()
+
 
 //  Minified
 
-var audio = new Audio('music.mp3');
-audio.play();
+
 
 var app = (function () {
 	"use strict";
+	
+
 	function e() {}
 	const t = (e) => e;
 	function n(e, t) {
@@ -1706,16 +1705,16 @@ var app = (function () {
 				(n = y("div")),
 					(r = y("span")),
 					(s = y("span")),
-					(s.textContent = "Target is"),
+					(s.textContent = "Твоя цель"),
 					(o = y("span")),
 					(a = v(t[1])),
 					(l = y("span")),
-					(l.textContent = "WPM"),
+					(l.textContent = "Слов в минуту"),
 					(i = y("div")),
 					(c = y("input")),
 					(d = y("div")),
 					(u = y("div")),
-					(u.textContent = "What is your target typing speed ?"),
+					(u.textContent = "Выбери подходящую скорость "),
 					$(s, "class", "text svelte-6li567"),
 					$(o, "class", "value svelte-6li567"),
 					$(l, "class", "unit"),
@@ -1825,24 +1824,24 @@ var app = (function () {
 					(o = y("div")),
 					(a = v(M)),
 					(l = y("div")),
-					(l.textContent = "WPM"),
+					(l.textContent = "СЛОВ"),
 					(i = y("div")),
 					(c = y("span")),
 					(d = v(S)),
 					(u = y("span")),
-					(u.textContent = "words typed in"),
+					(u.textContent = "слов напечатанных за"),
 					(f = y("span")),
 					(h = v(q)),
 					(p = v(" S")),
 					(b = y("div")),
 					(F = y("div")),
 					(j = y("div")),
-					(j.textContent = "SHADOOW mode"),
+					(j.textContent = "ТЕНЬ"),
 					(C = y("div")),
 					(A = v(O)),
 					(D = y("div")),
 					(D.innerHTML =
-						'<p class="svelte-12n1c2w">compete with your target speed</p>'),
+						'<p class="svelte-12n1c2w">Обгони тень своей цели</p>'),
 					$(n, "class", "left svelte-12n1c2w"),
 					$(o, "class", "value svelte-12n1c2w"),
 					$(l, "class", "unit svelte-12n1c2w"),
@@ -2144,7 +2143,7 @@ var app = (function () {
 					(n.textContent = "reset"),
 					(r = y("div")),
 					(r.innerHTML =
-						'<div class="s1"></div><div class="s2 svelte-1no0zd6"></div><div class="s3 svelte-1no0zd6"></div><div class="s4 svelte-1no0zd6"></div><div class="theme-name svelte-1no0zd6"></div><div class="tip svelte-1no0zd6">theme switcher</div>'),
+						'<div class="s1"></div><div class="s2 svelte-1no0zd6"></div><div class="s3 svelte-1no0zd6"></div><div class="s4 svelte-1no0zd6"></div><div class="theme-name svelte-1no0zd6"></div><div class="tip svelte-1no0zd6">Выбери цвет</div>'),
 					(s = y("div")),
 					(s.innerHTML =
 						'<div class="app svelte-1no0zd6">cybertype</div><div class="info svelte-1no0zd6"><div class="app svelte-1no0zd6"><div class="version"> V.1.0</div></div><div class="creator"><p class="svelte-1no0zd6"> Designed by</p><a href="https://vk.com/failmail" target="black" class="svelte-1no0zd6"> Greg Kurman</a></div></div>'),
